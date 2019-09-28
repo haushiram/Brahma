@@ -1,0 +1,29 @@
+<div class="fluid-container">
+<div class="row">
+<div class="col-md-2">
+ <button id="userregister" class="registration" [disabled]="loading" (click)="open(content)">New Registration</button>   
+ <button id="logoutdashboard" class="logout" [disabled]="loading" (click)="logOut($event)">Logout</button>   
+ <ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Profile update</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <app-user-registation></app-user-registation>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Save</button>
+  </div>
+</ng-template>
+ <!-- <h4>Dashboard</h4> -->
+</div>
+<div id="bgimage" class="col-md-10">
+    <h2 id="Brahmaheading" class="header"><b>Brahma Kumaris</b><h6>God Fatherly University</h6></h2>
+</div>
+<div class="col-md-2">
+
+ </div>
+</div>
+</div>

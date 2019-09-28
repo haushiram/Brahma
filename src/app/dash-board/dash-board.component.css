@@ -1,0 +1,35 @@
+#bgimage{
+    background-image: url('../../assets/images/Brahma_Kumaris.jpg');
+    width: 900px;
+    height: 636px;
+}
+.col-md-2{
+    background-color: gray;
+}
+div h2{
+    color: white;
+}
+#userregister
+{
+    top: 71px;
+    left: 20px;
+    position: absolute;
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+#logoutdashboard{
+    top: 120px;
+    left: 20px;
+    position: absolute;
+    color: #fff;
+    background-color: #ee0d0d;
+    border-color: red;
+}
+#Brahmaheading{
+    text-align: center;
+    padding: 30px;
+}
+.close{
+    background-color: #ee0d0d;
+}
